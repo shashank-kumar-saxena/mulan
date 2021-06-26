@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css and bootsarap\bootstrap.css" type='text/css'>
+    <link rel="stylesheet" href="css and bootsarap\all.css">
+    <link rel="stylesheet" href="css and bootsarap\mulan.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row"><div class="background">
+            <img src="mulan\bg.jpg">
+        </div>
+        </div>
+        <div class="row header">
+            <div class="col-lg-3">
+                <div class="logo">
+                    <img src="mulan\logo.png" alt="Netflix Logo">
+                </div>
+            </div>
+                <div class="col-lg-5 nav">
+                    <a href="index.html">Home</a>
+                    <a href="index.html">TV show</a>
+                    <a href="index.html">Movies</a>
+                    <a href="index.html">Latest</a>
+                    <a href="index.html">My List</a>
+                </div>
+                <div class="col-lg-4 align">
+                    <div class="searchbar">
+                        <i class="fas fa-search"></i><input type="text">
+                    </div>
+                </div>
+        </div>
+        <div class="row adjust-row">
+            <div class="offset-lg-1"></div>
+            <div class="col-lg-5">
+                <div class="company-logo">
+                    <img src="mulan\disney.png">
+                
+                    <div class="row grid">
+                        <div class="col1">2020</div>
+                        <div class="col2"></div>
+                        <div class="col3">1H 55 Min</div>
+                        <div class="col4">Action</div>
+                    </div>
+                </div>
+                    <div class="row adjust-content">
+                        <div class="col">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est sunt aperiam. 
+                            Quo sint perspiciatis accusantium nam, impedit totam modi.
+                        </div>>
+                    </div>
+                <div class="row">
+                    <div class="col btnclass">
+                        <button class="btn btn1"><i class="fas fa-play"></i> Play</button>
+                        <button class="btn btn2"><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col trailerbtn" id="watch-trailer">
+                        <button class="btn btn3" id="trailer-button"><i class="far fa-play-circle"></i> Watch Trailer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="offest-lg-6"></div>
+        </div>
+        <div class="popscreen" id="popscreen">
+            <div class="close-btn" id="btn"><i class="fas fa-window-close"></i></div>
+           <div class="trailer">
+              <video id="video" src="mulan\trailer.mp4" type="video\mp4" controls="controls"></video>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
+<script src="mulan.js"></script>
