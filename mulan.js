@@ -1,10 +1,12 @@
 function show()
 {
     var dis=document.getElementById("popscreen");
-    var video=document.getElementById("video");
-    video.currentTime=0;
-    video.pause();
     dis.classList.toggle("show-trailer");
+    var iframe =document.getElementById("video");
+    if ( iframe !== null ) {
+        var iframeSrc = iframe.src;
+        iframe.src = iframeSrc;
+    }
 }
 var el=document.getElementById("watch-trailer");
 el.addEventListener("click",show,false);
